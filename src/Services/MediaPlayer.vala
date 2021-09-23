@@ -30,7 +30,7 @@ public interface Sound.Services.MediaPlayer : Object {
 
     public abstract string name { owned get; }
     [DBus (name = "Type")]
-    public abstract string _type { owned get; }
+    public abstract string type { owned get; }
     public abstract string subtype { owned get; }
     public abstract uint position { get; }
     public abstract string status { owned get; }
